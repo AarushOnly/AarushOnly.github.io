@@ -1,0 +1,23 @@
+# Online Mandir & Online Aarti (ऑनलाइन मंदिर)
+# Official Website: https://onlineaarti.me/
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.svg$
+Allow: /*.ico$
+Allow: /*.webp$
+
+User-agent: Bingbot
+Allow: /
+
+# Canonical Sitemaps
+Sitemap: https://onlineaarti.me/sitemap.xml

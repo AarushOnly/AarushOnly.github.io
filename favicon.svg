@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Subtle Divine Aura Glow -->
+  <circle cx="32" cy="24" r="18" fill="url(#auraGlow)" opacity="0.4" />
+  
+  <!-- Outer Flame (Radiant Saffron & Gold) -->
+  <path d="M32 4 C32 4, 43 17, 43 26 C43 32, 38 37, 32 37 C26 37, 21 32, 21 26 C21 17, 32 4, 32 4 Z" fill="url(#flameOuter)" />
+  
+  <!-- Inner Flame Core (Golden Amber to Bright Light) -->
+  <path d="M32 14 C32 14, 39 22, 39 27 C39 31, 36 34, 32 34 C28 34, 25 31, 25 27 C25 22, 32 14, 32 14 Z" fill="url(#flameInner)" />
+  
+  <!-- Bright Flame Spark Point -->
+  <ellipse cx="32" cy="28" rx="2.5" ry="4" fill="#FFFDF0" />
+
+  <!-- Diya Oil Base Body (Traditional Brass Clay Deepak) -->
+  <path d="M12 36 C16 36, 18 38, 24 38 L40 38 C46 38, 48 36, 52 36 C55 36, 57 39, 54 43 C49 51, 42 56, 32 56 C22 56, 15 51, 10 43 C7 39, 9 36, 12 36 Z" fill="url(#diyaBody)" stroke="#92400E" stroke-width="1.5" />
+  
+  <!-- Diya Rim Trim -->
+  <ellipse cx="32" cy="38" rx="20" ry="3.5" fill="url(#diyaRim)" stroke="#B45309" stroke-width="1" />
+  
+  <!-- Diya Stand / Base -->
+  <path d="M25 55 L23 58 C23 59, 25 60, 32 60 C39 60, 41 59, 41 58 L39 55 Z" fill="#92400E" />
+
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="auraGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="flameOuter" x1="32" y1="4" x2="32" y2="37" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="35%" stop-color="#F59E0B" />
+      <stop offset="80%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </linearGradient>
+    <linearGradient id="flameInner" x1="32" y1="14" x2="32" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#FEF08A" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <linearGradient id="diyaBody" x1="32" y1="36" x2="32" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="40%" stop-color="#B45309" />
+      <stop offset="100%" stop-color="#78350F" />
+    </linearGradient>
+    <linearGradient id="diyaRim" x1="12" y1="38" x2="52" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#FDE68A" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+</svg>
